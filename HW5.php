@@ -1,6 +1,6 @@
 <?php
 // Спосіб 1
-function Fibonacci ($f)
+function fibonacci ($f)
 {
     $a = 0;
     $b = 1;
@@ -17,11 +17,11 @@ function Fibonacci ($f)
         }
     echo PHP_EOL . "sum = " . $sum;
 }
-Fibonacci(20);
+fibonacci(20);
 
 echo PHP_EOL .PHP_EOL;
 // Спосіб 2
-function Fib2 ($f2)
+function fib2 ($f2)
 {
     $fib = [0, 1];
 
@@ -35,4 +35,4 @@ function Fib2 ($f2)
     }
     echo PHP_EOL ."sum 2 = " . $summ;
 }
-Fib2(21);
+fib2(21);
